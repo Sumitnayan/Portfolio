@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(184, 181, 181);
+    width: 20vw;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+.sidebar nav {
+    padding: 20px;
+    margin: 20px;
+    
+
+}
+
+
+
+.sidebar nav li {
+    list-style: none
+  
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main {
+   /* background-color: red;*/
+    width: 90vw;
+}
+
+.container {
+
+    display: flex;
+}
+.devinfo{
+    display: flex;
+  justify-content: center;
+    flex-direction: column;
+
+}
+.infocontainer{
+   /* background-color: blue;*/
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+.devpic img{
+    height: 58vh  
+
+}
+.hii{
+    font-size: 65px;
+}
+.name{
+    font-size: 50px;
+    font-weight: bold;
+}
+.about{
+    font-size: 45px;
+}
+.btn{
+    font-size: 15px;
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    margin: 0 3px;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: white;
+    color: blue;
+}
+.btn-sm{
+    font-size: 11px;
+    padding: 7px 10px;
+}
+.buttons{
+
+    margin: 20px;
+}
+/* Contact form css*/
+.contactform {
+   background-color: aqua;
+   height: 624px;
+    font-family: 'Roboto', sans-serif;
+    padding-top: 50px;
+    padding: 0 34px;
+
+}
+.contactform h1{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 30px; ;
+}
+.sidebar1 {
+    background-color: rgb(184, 181, 181);
+    width: 20vw;
+    font-family: 'Roboto', sans-serif;
+    height: 100vh;
+}
+
+.sidebar1 nav {
+    padding: 20px;
+    margin: 20px;
+    
+
+}
+
+
+
+.sidebar1 nav li {
+    list-style: none
+  
+}
+.sidebar1 nav li a{
+    text-decoration: none;
+    color: black;
+}
+.contactform form div{
+    padding: 10px 0;
+}
+#emailHelp{
+    font-size: 8px;
+    color: blue;
+    margin: 0 5px;
+}
